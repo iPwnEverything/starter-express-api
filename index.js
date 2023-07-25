@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get("/initiate", require("./lib/initiate"));
+app.get("/initiate2", require("./lib/initiate"));
 
 app.get("/refresh", require("./lib/refresh"));
 
